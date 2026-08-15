@@ -1,0 +1,10 @@
+{
+  "id": "exam-language-use",
+  "type": "exam-skill",
+  "level": "A2",
+  "order": 120,
+  "status": "published",
+  "title": {"sk": "Lexika a gramatika", "uk": "Лексика та граматика"},
+  "description": {"sk": "Používanie základnej slovnej zásoby a gramatických štruktúr potrebných na komunikáciu na úrovni A2.", "uk": "Використання базової лексики та граматичних конструкцій, необхідних для спілкування на рівні A2."},
+  "tags": ["exam", "language-use", "grammar", "vocabulary"]
+}
