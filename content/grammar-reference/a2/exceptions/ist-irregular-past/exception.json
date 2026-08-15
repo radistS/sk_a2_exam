@@ -1,0 +1,22 @@
+{
+  "id": "ist-irregular-past",
+  "type": "exception",
+  "level": "A2",
+  "category": "verbs",
+  "title": {
+    "sk": "Nepravidelný minulý čas slovesa ísť",
+    "uk": "Неправильний минулий час дієслова ísť"
+  },
+  "explanation": {
+    "sk": "Sloveso ísť má v minulom čase tvary, ktoré sa netvoria pravidelne od infinitívu: išiel, išla, išli.",
+    "uk": "Дієслово ísť у минулому часі має форми, які не утворюються регулярно від інфінітива: išiel, išla, išli."
+  },
+  "forms": ["išiel", "išla", "išli"],
+  "examples": [
+    "Peter išiel domov.",
+    "Mária išla do práce.",
+    "Deti išli do školy."
+  ],
+  "relatedRuleIds": ["past-tense-basic", "past-tense-gender"],
+  "tags": ["verbs", "ist", "past-tense", "irregular"]
+}
