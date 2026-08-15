@@ -1,0 +1,97 @@
+[
+  {
+    "id": "past-tense-001",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "easy",
+    "question": "Včera som ___ celý deň doma.",
+    "options": ["bol", "som", "budem"],
+    "correctAnswer": "bol",
+    "ruleIds": ["past-tense-basic"],
+    "explanation": {
+      "sk": "Slovo „včera“ označuje minulosť. Pri mužskom hovoriacom je správne „Včera som bol...“.",
+      "uk": "Слово «včera» вказує на минуле. Для чоловіка правильна форма: «Včera som bol...»."
+    },
+    "tags": ["past-tense", "byt"]
+  },
+  {
+    "id": "past-tense-002",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "easy",
+    "question": "Mária ráno ___ do práce autobusom.",
+    "options": ["išla", "išiel", "ide"],
+    "correctAnswer": "išla",
+    "ruleIds": ["past-tense-gender"],
+    "explanation": {
+      "sk": "Mária je žena, preto používame ženský tvar minulého času „išla“.",
+      "uk": "Mária — жінка, тому потрібна жіноча форма минулого часу «išla»."
+    },
+    "tags": ["past-tense", "gender", "ist"]
+  },
+  {
+    "id": "past-tense-003",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "medium",
+    "question": "Minulý víkend sme ___ našich priateľov v Žiline.",
+    "options": ["navštívili", "navštívime", "navštevujeme"],
+    "correctAnswer": "navštívili",
+    "ruleIds": ["past-tense-basic"],
+    "explanation": {
+      "sk": "„Minulý víkend“ určuje minulý čas a pri „my“ používame „sme navštívili“.",
+      "uk": "«Minulý víkend» вказує на минулий час, а з «my» маємо форму «sme navštívili»."
+    },
+    "tags": ["past-tense", "plural"]
+  },
+  {
+    "id": "past-tense-004",
+    "type": "fill-gap",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "medium",
+    "question": "Doplňte správny tvar slovesa byť: Jana ___ včera u lekára.",
+    "correctAnswer": "bola",
+    "acceptedAnswers": ["bola"],
+    "ruleIds": ["past-tense-gender", "past-tense-third-person"],
+    "explanation": {
+      "sk": "Jana je ženského rodu a veta je v tretej osobe: „Jana bola...“.",
+      "uk": "Jana — жіночого роду, речення у третій особі: «Jana bola...»."
+    },
+    "tags": ["past-tense", "byt", "gender"]
+  },
+  {
+    "id": "past-tense-005",
+    "type": "true-false",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "medium",
+    "question": "Je veta „Peter je včera pracoval doma.“ správna?",
+    "correctAnswer": false,
+    "ruleIds": ["past-tense-third-person"],
+    "explanation": {
+      "sk": "Nie. V tretej osobe nepoužívame pomocné „je“. Správne: „Peter včera pracoval doma.“",
+      "uk": "Ні. У третій особі допоміжне «je» не використовується. Правильно: «Peter včera pracoval doma.»"
+    },
+    "tags": ["past-tense", "third-person"]
+  },
+  {
+    "id": "past-tense-006",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "exam",
+    "question": "Pred dvoma dňami Anna a Lucia ___ nový byt.",
+    "options": ["hľadali", "hľadala", "budú hľadať", "hľadajú"],
+    "correctAnswer": "hľadali",
+    "ruleIds": ["past-tense-basic"],
+    "explanation": {
+      "sk": "Výraz „pred dvoma dňami“ označuje minulosť. Podmet je množný: Anna a Lucia hľadali.",
+      "uk": "Вираз «pred dvoma dňami» означає минуле. Підмет у множині: Anna a Lucia hľadali."
+    },
+    "tags": ["past-tense", "exam-style", "plural"]
+  }
+]
