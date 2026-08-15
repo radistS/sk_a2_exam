@@ -1,0 +1,61 @@
+{
+  "version": "0.1",
+  "status": "draft-awaiting-source-analysis",
+  "description": "Master vocabulary curriculum map. Provisional entries must be verified against official A1/A2 requirements and Krížom-krážom A1/A2 before mass content generation.",
+  "topics": [
+    {
+      "id": "vocab-personal-information",
+      "title": { "sk": "Osobné údaje a zoznamovanie", "uk": "Особисті дані та знайомство" },
+      "level": "A1",
+      "officialAreas": ["Rodina, priatelia a medziľudské vzťahy"],
+      "referenceTopics": [],
+      "status": "provisional",
+      "priority": 1,
+      "items": []
+    },
+    {
+      "id": "vocab-family-relationships",
+      "title": { "sk": "Rodina a vzťahy", "uk": "Сім'я та стосунки" },
+      "level": "A1",
+      "officialAreas": ["Rodina, priatelia a medziľudské vzťahy"],
+      "referenceTopics": [],
+      "status": "provisional",
+      "priority": 2,
+      "items": []
+    },
+    {
+      "id": "vocab-home-living",
+      "title": { "sk": "Domov a bývanie", "uk": "Дім і житло" },
+      "level": "A1",
+      "officialAreas": ["Priestor okolo nás"],
+      "referenceTopics": [],
+      "status": "provisional",
+      "priority": 3,
+      "items": []
+    },
+    {
+      "id": "vocab-city-transport",
+      "title": { "sk": "Mesto a doprava", "uk": "Місто і транспорт" },
+      "level": "A1",
+      "officialAreas": ["Priestor okolo nás", "Cestovanie a dovolenka"],
+      "referenceTopics": [],
+      "status": "provisional",
+      "priority": 4,
+      "items": []
+    },
+    {
+      "id": "vocab-food-shopping",
+      "title": { "sk": "Jedlo a nakupovanie", "uk": "Їжа та покупки" },
+      "level": "A1",
+      "officialAreas": ["Obchody a nakupovanie"],
+      "referenceTopics": [],
+      "status": "provisional",
+      "priority": 5,
+      "items": []
+    }
+  ],
+  "itemContract": {
+    "required": ["id", "wordSk", "translationUk", "level", "topicId", "example", "imageNeeded", "exerciseTypes", "reviewPriority"],
+    "optional": ["collocations", "referenceTopic", "grammar", "image", "notes"]
+  }
+}
