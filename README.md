@@ -1,22 +1,56 @@
-# Slovak A2 Exam Trainer
+# Slovak A2 Trainer
 
-Bilingual Slovak/Ukrainian web platform for learning Slovak and preparing for the Slovak A2 language exam.
+Bilingual Slovak/Ukrainian web platform for actively learning Slovak from A1 foundations to A2 exam readiness.
 
-## Goals
+## Phase 1
 
-- Learn → Practice → Test → Identify mistakes → Explain the rule → Practice weak areas → Mock exam
-- Content-driven architecture: educational content lives outside React components
-- Slovak (`sk`) + Ukrainian (`uk`) from day one
-- Static MVP with local progress in browser storage
-- Easy migration to backend/cloud progress later
+The product starts with two connected learning engines:
 
-## Planned MVP stack
+- **Vocabulary** — visual cards, context, multiple exercise modes and spaced review
+- **Grammar** — visual lessons, rules, exceptions, mistake explanations and targeted remediation
+
+They converge into **Mixed Practice**. Reading, Writing and full A2 Exam Practice are built on top of this learning foundation. Listening and Speaking come later.
+
+## Learning loop
+
+> Learn → Practice → Make mistakes → Understand why → Practice weak material → Review → Use in context → Exam preparation
+
+## Curriculum strategy
+
+- Official Slovak A1/A2 standards and official A2 exam materials define **what must be learned**.
+- Krížom-krážom A1/A2 is a reference for vocabulary scope, grammar progression, learner difficulty and exercise mechanics.
+- Published exercises, examples and explanations are original; textbook exercises are not copied.
+
+## Content-first architecture
+
+Before mass generation we maintain two master curriculum maps:
+
+```text
+content/maps/vocabulary-map.json
+content/maps/grammar-map.json
+```
+
+Educational content lives outside React components. Stable IDs connect words, grammar rules, exercises, mistakes and review progress.
+
+## Phase 1 navigation
+
+```text
+Home / Today
+├── Vocabulary
+├── Grammar
+├── Mixed Practice
+├── Review / Mistakes
+└── Progress
+
+A2 Exam Preparation → later learning stage
+```
+
+## MVP stack
 
 - React
 - TypeScript
 - Vite
-- Markdown
-- JSON
+- JSON + Markdown content
 - localStorage behind a repository abstraction
 - GitHub Actions
 - GitHub Pages
@@ -24,17 +58,16 @@ Bilingual Slovak/Ukrainian web platform for learning Slovak and preparing for th
 ## Repository structure
 
 ```text
-content/      Educational content
-schemas/      JSON schemas for content validation
-docs/         Product and technical documentation
-scripts/      Content validation/index generation tools
-src/          Application source code (added after content model is finalized)
-generated/    Build-generated content index
-.github/      Workflows and Copilot instructions
+content/
+  maps/          Master vocabulary + grammar maps
+  vocabulary/    Vocabulary topics and cards
+  grammar/       Grammar lessons, rules and exercises
+  mixed/         Cross-module contextual practice
+  exam-skills/   Later exam-preparation content
+schemas/         Content validation schemas
+docs/            Product, learning and technical specifications
+src/             Application UI and learning engines
+.github/         Workflows and project instructions
 ```
 
-## Content policy
-
-Reference materials may be used to understand curriculum scope, grammar progression, exercise mechanics, difficulty and exam structure. Published content in this repository must be original and must not reproduce copyrighted textbook exercises or sample tests verbatim.
-
-See `docs/` for architecture and content rules.
+See `docs/PROJECT_BRIEF.md` for the current product and learning specification.
