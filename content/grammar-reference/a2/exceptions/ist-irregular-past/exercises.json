@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ist-exception-001",
+    "type": "exception-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "easy",
+    "question": "Peter včera ___ do centra.",
+    "options": ["išiel", "ísol", "išla"],
+    "correctAnswer": "išiel",
+    "ruleIds": ["past-tense-basic", "past-tense-gender"],
+    "exceptionIds": ["ist-irregular-past"],
+    "grammarTableIds": [],
+    "explanation": {
+      "sk": "Pri mužskom rode používame nepravidelný minulý tvar slovesa ísť: išiel.",
+      "uk": "Для чоловічого роду використовуємо неправильну форму минулого часу дієслова ísť: išiel."
+    },
+    "tags": ["exception", "ist", "past-tense", "visual-choice"]
+  },
+  {
+    "id": "ist-exception-002",
+    "type": "exception-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "easy",
+    "question": "Lucia ráno ___ k lekárovi.",
+    "options": ["išla", "išiel", "ísla"],
+    "correctAnswer": "išla",
+    "ruleIds": ["past-tense-gender"],
+    "exceptionIds": ["ist-irregular-past"],
+    "grammarTableIds": [],
+    "explanation": {
+      "sk": "Lucia je ženského rodu, preto je správny tvar išla.",
+      "uk": "Lucia — жіночого роду, тому правильна форма — išla."
+    },
+    "tags": ["exception", "ist", "gender", "visual-choice"]
+  },
+  {
+    "id": "ist-exception-003",
+    "type": "spelling-choice",
+    "level": "A2",
+    "topicId": "past-tense",
+    "difficulty": "medium",
+    "question": "Vyberte správne napísaný minulý tvar slovesa ísť pre muža.",
+    "options": ["išiel", "išyel", "ísiel"],
+    "correctAnswer": "išiel",
+    "ruleIds": [],
+    "exceptionIds": ["ist-irregular-past"],
+    "grammarTableIds": [],
+    "explanation": {
+      "sk": "Správny tvar je išiel.",
+      "uk": "Правильна форма — išiel."
+    },
+    "tags": ["exception", "spelling", "ist", "visual-choice"]
+  }
+]
