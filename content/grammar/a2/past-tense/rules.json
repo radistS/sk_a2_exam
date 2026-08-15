@@ -1,0 +1,47 @@
+[
+  {
+    "id": "past-tense-basic",
+    "type": "rule",
+    "level": "A2",
+    "title": {
+      "sk": "Tvorenie minulého času",
+      "uk": "Утворення минулого часу"
+    },
+    "explanation": {
+      "sk": "V prvej a druhej osobe sa minulý čas tvorí minulým príčastím a pomocným slovesom byť: som, si, sme, ste. V tretej osobe sa pomocné je/sú nepoužíva.",
+      "uk": "У першій та другій особі минулий час утворюється за допомогою форми минулого дієприкметника та форм byť: som, si, sme, ste. У третій особі je/sú не використовується."
+    },
+    "examples": ["som pracoval", "si pracovala", "sme bývali", "on pracoval", "oni cestovali"],
+    "exceptions": []
+  },
+  {
+    "id": "past-tense-gender",
+    "type": "rule",
+    "level": "A2",
+    "title": {
+      "sk": "Rod v minulom čase",
+      "uk": "Рід у минулому часі"
+    },
+    "explanation": {
+      "sk": "V jednotnom čísle sa minulé príčastie prispôsobuje rodu osoby: muž pracoval, žena pracovala.",
+      "uk": "В однині форма минулого дієприкметника узгоджується з родом: чоловік pracoval, жінка pracovala."
+    },
+    "examples": ["Peter bol doma.", "Mária bola doma.", "Peter išiel do práce.", "Mária išla do práce."],
+    "exceptions": []
+  },
+  {
+    "id": "past-tense-third-person",
+    "type": "tip",
+    "level": "A2",
+    "title": {
+      "sk": "Tretia osoba bez je a sú",
+      "uk": "Третя особа без je та sú"
+    },
+    "explanation": {
+      "sk": "Nehovoríme „on je pracoval“ ani „oni sú pracovali“. Správne je „on pracoval“ a „oni pracovali“.",
+      "uk": "Не кажемо «on je pracoval» або «oni sú pracovali». Правильно: «on pracoval», «oni pracovali»."
+    },
+    "examples": ["On pracoval.", "Ona cestovala.", "Oni bývali v Nitre."],
+    "exceptions": []
+  }
+]
