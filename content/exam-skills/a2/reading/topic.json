@@ -1,0 +1,10 @@
+{
+  "id": "exam-reading",
+  "type": "exam-skill",
+  "level": "A2",
+  "order": 100,
+  "status": "published",
+  "title": {"sk": "Čítanie s porozumením", "uk": "Читання з розумінням"},
+  "description": {"sk": "Porozumenie krátkym praktickým textom, oznamom, správam a jednoduchým informačným textom.", "uk": "Розуміння коротких практичних текстів, оголошень, повідомлень та простих інформаційних текстів."},
+  "tags": ["exam", "reading", "comprehension"]
+}
