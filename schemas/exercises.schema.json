@@ -19,7 +19,7 @@
       "required": ["id", "type", "level", "topicId", "difficulty", "question", "tags"],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-        "type": { "enum": ["multiple-choice", "fill-gap", "choose-sentence", "translation-choice", "matching", "ordering", "true-false", "word-building", "sentence-building", "reading-comprehension", "dialogue-gap", "grammar-transformation", "writing-prompt"] },
+        "type": { "enum": ["multiple-choice", "fill-gap", "choose-sentence", "translation-choice", "matching", "ordering", "true-false", "word-building", "sentence-building", "reading-comprehension", "dialogue-gap", "grammar-transformation", "writing-prompt", "form-choice", "spelling-choice", "exception-choice", "contrast-choice"] },
         "level": { "enum": ["A1", "A2"] },
         "topicId": { "type": "string" },
         "difficulty": { "enum": ["easy", "medium", "exam"] },
@@ -28,6 +28,8 @@
         "correctAnswer": {},
         "acceptedAnswers": { "type": "array", "items": { "type": "string" } },
         "ruleIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "exceptionIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "grammarTableIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
         "explanation": { "$ref": "#/$defs/localized" },
         "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
       },
