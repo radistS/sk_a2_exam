@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sk-a2-exam.local/schemas/exception.schema.json",
+  "title": "Grammar Exception",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "type", "level", "category", "title", "explanation", "forms", "examples", "relatedRuleIds", "tags"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "type": { "const": "exception" },
+    "level": { "enum": ["A1", "A2"] },
+    "category": { "enum": ["verbs", "cases", "nouns", "adjectives", "pronouns", "prepositions", "spelling", "other"] },
+    "title": { "$ref": "#/$defs/localized" },
+    "explanation": { "$ref": "#/$defs/localized" },
+    "forms": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+    "examples": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+    "relatedRuleIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sk", "uk"],
+      "properties": {
+        "sk": { "type": "string", "minLength": 1 },
+        "uk": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}
