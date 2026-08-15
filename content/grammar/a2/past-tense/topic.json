@@ -1,0 +1,16 @@
+{
+  "id": "past-tense",
+  "type": "grammar",
+  "level": "A2",
+  "order": 10,
+  "status": "published",
+  "title": {
+    "sk": "Minulý čas",
+    "uk": "Минулий час"
+  },
+  "description": {
+    "sk": "Tvorenie a používanie minulého času v bežných situáciách.",
+    "uk": "Утворення та використання минулого часу в повсякденних ситуаціях."
+  },
+  "tags": ["verbs", "past-tense", "grammar"]
+}
