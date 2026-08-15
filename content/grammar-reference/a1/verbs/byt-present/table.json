@@ -1,0 +1,30 @@
+{
+  "id": "verb-byt-present",
+  "type": "grammar-table",
+  "level": "A1",
+  "category": "verbs",
+  "title": {
+    "sk": "Sloveso byť – prítomný čas",
+    "uk": "Дієслово byť – теперішній час"
+  },
+  "description": {
+    "sk": "Základné tvary slovesa byť podľa osoby a čísla.",
+    "uk": "Базові форми дієслова byť за особою та числом."
+  },
+  "columns": [
+    {"id": "person", "label": {"sk": "Osoba", "uk": "Особа"}},
+    {"id": "pronoun", "label": {"sk": "Zámeno", "uk": "Займенник"}},
+    {"id": "form", "label": {"sk": "Tvar", "uk": "Форма"}}
+  ],
+  "rows": [
+    {"person": "1sg", "pronoun": "ja", "form": "som"},
+    {"person": "2sg", "pronoun": "ty", "form": "si"},
+    {"person": "3sg", "pronoun": "on / ona / ono", "form": "je"},
+    {"person": "1pl", "pronoun": "my", "form": "sme"},
+    {"person": "2pl", "pronoun": "vy", "form": "ste"},
+    {"person": "3pl", "pronoun": "oni / ony", "form": "sú"}
+  ],
+  "ruleIds": [],
+  "exceptionIds": [],
+  "tags": ["verbs", "byt", "present-tense", "persons"]
+}
