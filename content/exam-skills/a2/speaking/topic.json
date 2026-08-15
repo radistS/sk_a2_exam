@@ -1,0 +1,10 @@
+{
+  "id": "exam-speaking",
+  "type": "exam-skill",
+  "level": "A2",
+  "order": 140,
+  "status": "published",
+  "title": {"sk": "Ústny prejav a komunikácia", "uk": "Усне мовлення та комунікація"},
+  "description": {"sk": "Jednoduchá komunikácia v bežných situáciách, odpovede na otázky, opis a krátky súvislý prejav.", "uk": "Просте спілкування в повсякденних ситуаціях, відповіді на запитання, опис і коротке зв'язне висловлювання."},
+  "tags": ["exam", "speaking", "communication"]
+}
