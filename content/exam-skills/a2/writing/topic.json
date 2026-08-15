@@ -1,0 +1,10 @@
+{
+  "id": "exam-writing",
+  "type": "exam-skill",
+  "level": "A2",
+  "order": 130,
+  "status": "published",
+  "title": {"sk": "Písanie", "uk": "Письмо"},
+  "description": {"sk": "Tvorba krátkeho zrozumiteľného textu o každodenných témach, napríklad správy, e-mailu alebo jednoduchého opisu.", "uk": "Створення короткого зрозумілого тексту на повсякденну тему, наприклад повідомлення, електронного листа або простого опису."},
+  "tags": ["exam", "writing", "production"]
+}
