@@ -1,0 +1,68 @@
+{
+  "version": "0.1",
+  "status": "draft-awaiting-standard-verification",
+  "description": "Master grammar curriculum map. The official A1/A2 standard determines required coverage; Krížom-krážom A1/A2 informs progression and teaching order.",
+  "topics": [
+    {
+      "id": "grammar-present-byt",
+      "title": { "sk": "Prítomný čas a sloveso byť", "uk": "Теперішній час і дієслово byť" },
+      "level": "A1",
+      "officialRequirement": "present tense; irregular/common verbs",
+      "status": "provisional",
+      "priority": 1,
+      "infographicConcept": "person cards showing ja/ty/on-ona/my/vy/oni connected to som/si/je/sme/ste/sú",
+      "relatedVocabularyTopics": ["vocab-personal-information"],
+      "exerciseTypes": ["multiple-choice", "fill-gap", "sentence-building"]
+    },
+    {
+      "id": "grammar-gender-adjective-agreement",
+      "title": { "sk": "Rod podstatných mien a zhoda prídavných mien", "uk": "Рід іменників та узгодження прикметників" },
+      "level": "A1",
+      "officialRequirement": "noun gender; adjective agreement",
+      "status": "provisional",
+      "priority": 2,
+      "infographicConcept": "three visual noun groups with matching adjective endings",
+      "relatedVocabularyTopics": ["vocab-family-relationships", "vocab-home-living"],
+      "exerciseTypes": ["matching", "multiple-choice", "fill-gap"]
+    },
+    {
+      "id": "grammar-accusative-basic",
+      "title": { "sk": "Akuzatív v bežných situáciách", "uk": "Знахідний відмінок у повсякденних ситуаціях" },
+      "level": "A1",
+      "officialRequirement": "Accusative; prepositions + cases",
+      "status": "provisional",
+      "priority": 3,
+      "infographicConcept": "action arrow from person to object/destination with koho/čo and kam examples",
+      "relatedVocabularyTopics": ["vocab-food-shopping", "vocab-city-transport"],
+      "exerciseTypes": ["multiple-choice", "fill-gap", "grammar-transformation"]
+    },
+    {
+      "id": "grammar-kde-kam",
+      "title": { "sk": "KDE a KAM: lokál alebo akuzatív", "uk": "KDE і KAM: місцевий чи знахідний" },
+      "level": "A1",
+      "officialRequirement": "Locative; Accusative; prepositions + cases; KDE/KAM distinction",
+      "status": "provisional",
+      "priority": 4,
+      "infographicConcept": "KAM person arrow to university = na univerzitu; KDE person inside university = na univerzite",
+      "relatedVocabularyTopics": ["vocab-city-transport", "vocab-home-living"],
+      "exerciseTypes": ["multiple-choice", "matching", "fill-gap", "sentence-building"]
+    },
+    {
+      "id": "grammar-past-tense",
+      "title": { "sk": "Minulý čas", "uk": "Минулий час" },
+      "level": "A2",
+      "officialRequirement": "past tense; irregular verbs",
+      "status": "existing-needs-visual-upgrade",
+      "priority": 5,
+      "infographicConcept": "today vs yesterday timeline with pracujem → som pracoval/pracovala and idem → som išiel/išla",
+      "relatedVocabularyTopics": ["vocab-city-transport", "vocab-family-relationships"],
+      "exerciseTypes": ["multiple-choice", "fill-gap", "grammar-transformation", "sentence-building"],
+      "rules": ["past-tense-auxiliary", "past-tense-gender"],
+      "exceptions": ["ist-irregular-past"]
+    }
+  ],
+  "topicContract": {
+    "required": ["id", "title", "level", "officialRequirement", "infographicConcept", "relatedVocabularyTopics", "exerciseTypes"],
+    "learningSequence": ["infographic", "simpleExplanation", "rule", "examples", "exceptions", "easy", "medium", "examStyle", "result", "revision"]
+  }
+}
