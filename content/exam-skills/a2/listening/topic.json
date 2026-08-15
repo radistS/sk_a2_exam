@@ -1,0 +1,10 @@
+{
+  "id": "exam-listening",
+  "type": "exam-skill",
+  "level": "A2",
+  "order": 110,
+  "status": "published",
+  "title": {"sk": "Počúvanie s porozumením", "uk": "Аудіювання"},
+  "description": {"sk": "Porozumenie krátkym dialógom, oznamom a bežným informáciám pri zreteľnej reči.", "uk": "Розуміння коротких діалогів, оголошень і повсякденної інформації за умови чіткого мовлення."},
+  "tags": ["exam", "listening", "comprehension"]
+}
